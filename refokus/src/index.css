@@ -1,0 +1,20 @@
+@import "tailwindcss";
+/* index.css */
+
+/* Font face define karo */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+/* Tailwind v4 mein custom font aise add karo */
+@theme {
+  --font-satoshi: 'Satoshi', sans-serif;
+}
